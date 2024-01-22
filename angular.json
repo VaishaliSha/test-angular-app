@@ -17,8 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/test-angular-app/",
-            "outputPath": "docs",
+            "outputPath": "dist/test-angular-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
